@@ -44,7 +44,7 @@ Created by Cristel Lib
 		"ocean_ruin_warm": true
 	},
 	"pillager_outposts": {
-		"pillager_outpost": true
+		"pillager_outpost": false
 	},
 	"ruined_portals": {
 		"ruined_portal": true,
@@ -72,11 +72,11 @@ Created by Cristel Lib
 		"trial_chambers": true
 	},
 	"villages": {
-		"village_desert": true,
-		"village_plains": true,
-		"village_savanna": true,
-		"village_snowy": true,
-		"village_taiga": true
+		"village_desert": false,
+		"village_plains": false,
+		"village_savanna": false,
+		"village_snowy": false,
+		"village_taiga": false
 	},
 	"woodland_mansions": {
 		"mansion": true
