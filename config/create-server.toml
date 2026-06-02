@@ -68,12 +68,12 @@
 	#Maximum length in blocks of mechanical belts.
 	# Default: 20
 	# Range: > 5
-	maxBeltLength = 20
+	maxBeltLength = 32
 	#.
 	#Maximum length in blocks of chain conveyor connections.
 	# Default: 32
 	# Range: > 5
-	maxChainConveyorLength = 32
+	maxChainConveyorLength = 48
 	#.
 	#Maximum amount of connections each chain conveyor can have.
 	# Default: 4
@@ -190,7 +190,7 @@
 		rollerFillDepth = 12
 		#.
 		#Whether minecart contraptions can be picked up in survival mode.
-		survivalContraptionPickup = true
+		survivalContraptionPickup = false
 		#.
 		#Configure how Spawner blocks can be moved by contraptions.
 		#Allowed Values: MOVABLE, NO_PICKUP, UNMOVABLE
@@ -280,52 +280,52 @@
 			#[in Stress Units]
 			#Configure the individual stress impact of mechanical blocks. Note that this cost is doubled for every speed increase it receives.
 			[kinetics.stressValues.v2.impact]
-				brass_encased_shaft = 0.0
+				brass_encased_shaft = 0.125
 				turntable = 4.0
-				clutch = 0.0
+				clutch = 0.125
 				mechanical_mixer = 4.0
-				gearbox = 0.0
+				gearbox = 0.125
 				mechanical_bearing = 4.0
 				copper_backtank = 4.0
 				hose_pulley = 4.0
-				display_board = 0.0
+				display_board = 0.125
 				crushing_wheel = 8.0
-				adjustable_chain_gearshift = 0.0
+				adjustable_chain_gearshift = 0.125
 				millstone = 4.0
-				rotation_speed_controller = 0.0
+				rotation_speed_controller = 0.125
 				sticky_mechanical_piston = 4.0
 				mechanical_crafter = 2.0
 				deployer = 4.0
 				elevator_pulley = 4.0
-				stressometer = 0.0
-				cogwheel = 0.0
-				encased_chain_drive = 0.0
-				belt = 0.0
-				brass_encased_large_cogwheel = 0.0
+				stressometer = 0.125
+				cogwheel = 0.125
+				encased_chain_drive = 0.125
+				belt = 0.25
+				brass_encased_large_cogwheel = 0.125
 				weighted_ejector = 2.0
 				chain_conveyor = 1.0
 				mechanical_saw = 4.0
-				flywheel = 0.0
+				flywheel = 0.125
 				mechanical_piston = 4.0
-				speedometer = 0.0
-				brass_encased_cogwheel = 0.0
+				speedometer = 0.125
+				brass_encased_cogwheel = 0.125
 				clockwork_bearing = 4.0
 				mechanical_press = 8.0
 				mechanical_drill = 4.0
-				andesite_encased_shaft = 0.0
+				andesite_encased_shaft = 0.125
 				netherite_backtank = 4.0
 				mechanical_arm = 2.0
-				sequenced_gearshift = 0.0
-				andesite_encased_large_cogwheel = 0.0
-				shaft = 0.0
+				sequenced_gearshift = 0.125
+				andesite_encased_large_cogwheel = 0.125
+				shaft = 0.125
 				cuckoo_clock = 1.0
-				gearshift = 0.0
+				gearshift = 0.125
 				rope_pulley = 4.0
-				andesite_encased_cogwheel = 0.0
-				large_cogwheel = 0.0
+				andesite_encased_cogwheel = 0.125
+				large_cogwheel = 0.125
 				encased_fan = 2.0
 				mysterious_cuckoo_clock = 1.0
-				gantry_shaft = 0.0
+				gantry_shaft = 0.125
 				mechanical_pump = 4.0
 
 			#.
@@ -484,12 +484,12 @@
 		#Amount of game ticks between shots of the cannon. Higher => Slower
 		# Default: 10
 		# Range: > 1
-		schematicannonDelay = 10
+		schematicannonDelay = 4
 		#.
 		#Amount of blocks a Schematicannon can print per Gunpowder item provided.
 		# Default: 400
 		# Range: > 1
-		schematicannonShotsPerGunpowder = 400
+		schematicannonShotsPerGunpowder = 200
 
 #.
 #Equipment and gadgets added by Create
@@ -542,7 +542,7 @@
 	#Maximum length of track that can be placed as one batch or turn.
 	# Default: 32
 	# Range: 16 ~ 128
-	maxTrackPlacementLength = 32
+	maxTrackPlacementLength = 128
 	#.
 	#Maximum length of a Train Stations' assembly track.
 	# Default: 128
@@ -557,7 +557,7 @@
 	#Relative speed of a manually controlled Train compared to a Scheduled one.
 	# Default: 0.75
 	# Range: 0.0 ~ 3.4028234663852886E38
-	manualTrainSpeedModifier = 0.75
+	manualTrainSpeedModifier = 0.95
 
 	#.
 	#Standard Trains
@@ -567,19 +567,19 @@
 		#The top speed of any assembled Train.
 		# Default: 28.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		trainTopSpeed = 28.0
+		trainTopSpeed = 20.0
 		#.
 		#[in Blocks/Second]
 		#The top speed of Trains during a turn.
 		# Default: 14.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		trainTurningTopSpeed = 14.0
+		trainTurningTopSpeed = 16.0
 		#.
 		#[in Blocks/Second²]
 		#The acceleration of any assembled Train.
 		# Default: 3.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		trainAcceleration = 3.0
+		trainAcceleration = 0.5
 
 	#.
 	#Powered Trains
@@ -589,13 +589,13 @@
 		#The top speed of powered Trains.
 		# Default: 40.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		poweredTrainTopSpeed = 40.0
+		poweredTrainTopSpeed = 50.0
 		#.
 		#[in Blocks/Second]
 		#The top speed of powered Trains during a turn.
 		# Default: 20.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		poweredTrainTurningTopSpeed = 20.0
+		poweredTrainTurningTopSpeed = 40.0
 		#.
 		#[in Blocks/Second²]
 		#The acceleration of powered Trains.
