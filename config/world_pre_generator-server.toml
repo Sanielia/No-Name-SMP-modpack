@@ -9,7 +9,7 @@ send_feedback = true
 		#SERIAL: Every chunk one after another is generated.
 		#SEMI_PARALLEL: Multiple chunk generation tasks are created, but the generation is still serial (speed up the chunk generation).
 		#Allowed Values: SERIAL, SEMI_PARALLEL
-		type = "SERIAL"
+		type = "SEMI_PARALLEL"
 		#How many chunk generation tasks shall be start in parallel? If the value is "0", the number of processor cores is used.
 		# Default: 0
 		# Range: 0 ~ 32
