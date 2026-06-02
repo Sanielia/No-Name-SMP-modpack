@@ -37,7 +37,7 @@
 		#.
 		#Smoke particle style
 		#Allowed Values: VANILLA, OLD, CARTOON
-		smokeType = "CARTOON"
+		smokeType = "VANILLA"
 
 		#.
 		#Old-style Smoke Settings
