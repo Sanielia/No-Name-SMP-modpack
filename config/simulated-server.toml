@@ -22,24 +22,24 @@
 			#[in Stress Units]
 			#Configure how much stress a source can accommodate for.
 			[kinetics.stressValues.v2.capacity]
-				light_blue_portable_engine = 64.0
-				yellow_portable_engine = 64.0
-				gray_portable_engine = 64.0
-				black_portable_engine = 64.0
-				red_portable_engine = 64.0
-				lime_portable_engine = 64.0
-				light_gray_portable_engine = 64.0
-				pink_portable_engine = 64.0
-				green_portable_engine = 64.0
-				cyan_portable_engine = 64.0
+				light_blue_portable_engine = 48.0
+				yellow_portable_engine = 48.0
+				gray_portable_engine = 48.0
+				black_portable_engine = 48.0
+				red_portable_engine = 48.0
+				lime_portable_engine = 48.0
+				light_gray_portable_engine = 48.0
+				pink_portable_engine = 48.0
+				green_portable_engine = 48.0
+				cyan_portable_engine = 48.0
 				torsion_spring = 8.0
-				brown_portable_engine = 64.0
-				magenta_portable_engine = 64.0
-				purple_portable_engine = 64.0
+				brown_portable_engine = 48.0
+				magenta_portable_engine = 48.0
+				purple_portable_engine = 48.0
 				steering_wheel = 16.0
-				white_portable_engine = 64.0
-				blue_portable_engine = 64.0
-				orange_portable_engine = 64.0
+				white_portable_engine = 48.0
+				blue_portable_engine = 48.0
+				orange_portable_engine = 48.0
 
 #.
 #Settings for sub-level assembly
@@ -191,7 +191,7 @@
 	#Maximum range for rope connections
 	# Default: 40.0
 	# Range: 0.0 ~ 1000.0
-	max_rope_range = 40.0
+	max_rope_range = 160.0
 	#.
 	#Maximum percent the rope mounted on a Rope Winch is allowed to stretch before not accepting input
 	# Default: 25.0
