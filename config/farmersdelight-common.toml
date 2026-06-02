@@ -16,7 +16,7 @@
 	richSoilBoostChance = 0.2
 	#If enabled, tomato crops will be able to climb any rope tagged as farmersdelight:ropes. If disabled, this will be restricted to this mod's rope only.
 	#Beware: this will convert these blocks into the block specified in defaultTomatoVineRope.
-	enableTomatoVineClimbingTaggedRopes = true
+	enableTomatoVineClimbingTaggedRopes = false
 	#Which rope should Tomato Vines leave behind when broken?
 	defaultTomatoVineRope = "farmersdelight:rope"
 
@@ -36,7 +36,7 @@
 	#If enabled, Rabbit Stew will be given improved food stats, to match its crafting cost.
 	enableRabbitStewBuff = true
 	#If enabled, Pumpkin Pie will require the user to sneak to place it down as a block.
-	enablePumpkinPieSneakToPlace = false
+	enablePumpkinPieSneakToPlace = true
 	#If enabled, the Dispenser will be able to operate a Cutting Board in front of itself, using stored items as cutting tools.
 	enableCuttingBoardDispenserBehavior = true
 
