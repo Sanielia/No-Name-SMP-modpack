@@ -139,6 +139,12 @@
           "displayName": "Shield",
           "shouldIgnore": false
         }
+      },
+      "MAINHAND": {
+        "minecraft:acacia_log": {
+          "displayName": "Acacia Log",
+          "shouldIgnore": false
+        }
       }
     }
   }
